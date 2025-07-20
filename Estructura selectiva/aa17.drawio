@@ -1,0 +1,39 @@
+<mxfile host="65bd71144e">
+    <diagram id="ihqZp_OlMIAVGf1BqAEk" name="Page-1">
+        <mxGraphModel dx="662" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="220" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="float metros = 10000&#xa;float pinos&#xa;float oyameles&#xa;float cedros" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="330" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="pinos = (metros / 10) * 8 #10m2 caben 8&#xa;oyameles = (metros / 15) * 15 #15m2 caben 15&#xa;cedros = (metros / 18) * 10 #18m2 caben 10" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="420" width="300" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&quot;Número de pinos por hectárea: {pinos}&quot;)&#xa;&quot;Número de oyameles por hectárea:{omayales} &quot;&#xa;&quot;Número de cedros por hectárea {cedros}&quot;" style="shape=document;whiteSpace=wrap;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="570" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="770" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
